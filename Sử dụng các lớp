@@ -1,0 +1,21 @@
+# Sử dụng các lớp
+
+desktop = Desktop("Dell", 1500, 500)
+laptop = Laptop("Lenovo", 1200, 8)
+tablet = Tablet("Samsung", 800, 10)
+
+desktop.display_info()
+desktop.turn_on()
+desktop.turn_off()
+
+print("----------------------")
+
+laptop.display_info()
+laptop.turn_on()
+laptop.turn_off()
+
+print("----------------------")
+
+tablet.display_info()
+tablet.turn_on()
+tablet.turn_off()

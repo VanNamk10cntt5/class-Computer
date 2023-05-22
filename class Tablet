@@ -1,0 +1,14 @@
+class Tablet(Computer):
+    def __init__(self, brand, price, screen_size):
+        super().__init__(brand, price)
+        self.screen_size = screen_size
+
+    def display_info(self):
+        super().display_info()
+        print(f"Screen Size: {self.screen_size} inches")
+
+    def turn_on(self):
+        print("Tablet is turning on.")
+
+    def turn_off(self):
+        print("Tablet is turning off.")

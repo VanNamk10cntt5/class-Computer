@@ -1,0 +1,14 @@
+class Desktop(Computer):
+    def __init__(self, brand, price, power):
+        super().__init__(brand, price)
+        self.power = power
+
+    def display_info(self):
+        super().display_info()
+        print(f"Power: {self.power}W")
+
+    def turn_on(self):
+        print("Desktop computer is turning on.")
+
+    def turn_off(self):
+        print("Desktop computer is turning off.")

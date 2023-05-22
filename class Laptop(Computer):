@@ -1,0 +1,14 @@
+class Laptop(Computer):
+    def __init__(self, brand, price, battery_life):
+        super().__init__(brand, price)
+        self.battery_life = battery_life
+
+    def display_info(self):
+        super().display_info()
+        print(f"Battery Life: {self.battery_life} hours")
+
+    def turn_on(self):
+        print("Laptop is turning on.")
+
+    def turn_off(self):
+        print("Laptop is turning off.")
